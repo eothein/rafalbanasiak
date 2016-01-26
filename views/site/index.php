@@ -12,10 +12,7 @@ $this->title = 'Renovaties Rafal Banasiak';
     <!-- /.col-md-8 -->
     <div class="col-md-4">
         <h1>Renovaties Rafal Banasiak</h1>
-        <p>This is a template that is great for small businesses. 
-            It doesn't have too much fancy flare to it, but it makes 
-            a great use of the standard Bootstrap core components. 
-            Feel free to use this template for any project you want!</p>
+        <p>Hier komt wat dummy tekst</p>
     </div>
 </div>
 
