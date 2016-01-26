@@ -5,43 +5,67 @@ $this->title = 'Renovaties Rafal Banasiak';
 ?>
 
 <!-- Heading Row -->
-<div class="row">
-    <div class="col-md-8">
-        <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">
+<section id="top">
+    <div class="top--inner">
+        <div class="container">
+            <div class="row">
+                <div class="flipInY wow animated">
+                    <div class="col-md-8">
+                        <img class="img-responsive img-rounded" src="images/banner.jpg" alt="">
+                    </div>
+                </div>
+                <!-- /.col-md-8 -->
+                <div class="flipInX wow animated">
+                    <div class="col-md-4">
+                        <h3>Renovaties en andere werken</h3>
+                        <h2>Rafal Banasiak</h2>
+                        <p>
+                            De firma Rafal Banasiak specialiseert zich in grote - en kleine totaalprojecten. Door onze 
+                            jarenlange ervaring in zowel Polen als België streven we naar perfectie 
+                            in een vooropgesteld tijdskader en dit tegen een vooraf duidelijk afgesproken prijs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- /.col-md-8 -->
-    <div class="col-md-4">
-        <h1>Renovaties Rafal Banasiak</h1>
-        <p>Hier komt wat dummy tekst</p>
-    </div>
-</div>
+</section>
 
 
-<hr>
-
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">Voorbeeldprojecten</h2>
+<section id="services">
+    <div class="services--inner">
+        <div class="container">
+            <h2>Soorten werken</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="services--block">
+                        <div class="services--icon delay-03s animated wow  zoomIn"><img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Schilderwerken"></div>
+                        <h3 class="animated fadeInUp wow">Schilderwerken</h3>
+                        <p class="animated fadeInDown wow">Hier komst wat tekst over de schilderwerken. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="services--block">
+                        <div class="services--icon delay-03s animated wow  zoomIn"><img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Schilderwerken"></div>
+                        <h3 class="animated fadeInUp wow">Betegeling</h3>
+                        <p class="animated fadeInDown wow">Hier komst wat tekst over de schilderwerken. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="services--block">
+                        <div class="services--icon delay-03s animated wow  zoomIn"><img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Schilderwerken"></div>
+                        <h3 class="animated fadeInUp wow">Gyproc</h3>
+                        <p class="animated fadeInDown wow">Hier komst wat tekst over de schilderwerken. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="services--block">
+                        <div class="services--icon delay-03s animated wow  zoomIn"><img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Schilderwerken"></div>
+                        <h3 class="animated fadeInUp wow">Renovaties</h3>
+                        <p class="animated fadeInDown wow">Hier komst wat tekst over de schilderwerken. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-lg-3 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Schilderwerken">
-        <h3>Schilderwerken</h3>
-        <p>Hier komst wat tekst over de schilderwerken. </p>
-    </div>
-    <div class="col-lg-3 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Betegeling">
-        <h3>Betegeling</h3>
-        <p>Hier komst wat tekst over de betegelingswerken.</p>
-    </div>
-    <div class="col-lg-3 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Gyproc">
-        <h3>Gyproc</h3>
-        <p>Hier komst wat tekst over de gyrpocwerken.</p>
-    </div>
-    <div class="col-lg-3 col-sm-6 text-center">
-        <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Renovaties">
-        <h3>Renovaties</h3>
-        <p>Hier komst wat tekst over de algemene renovaties.</p>
-    </div>
-</div>
-
+</section>
