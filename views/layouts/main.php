@@ -16,8 +16,6 @@ AppAsset::register($this);
     'animateClass' => 'animated',
     'offset' => '0',
 ]);
-
-
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -32,8 +30,9 @@ AppAsset::register($this);
     </head>
     <body>
         <?php $this->beginBody() ?>
-        <header id="header">
-            <div class="container">
+        <div class="wrapper">
+            <header id="header">
+
                 <div class="header--section">
                     <?php
                     NavBar::begin([
@@ -56,19 +55,15 @@ AppAsset::register($this);
                     NavBar::end();
                     ?>
                 </div>
-            </div>
-        </header>
-        <div class="wrap">
+            </header>
 
-            <?=
-            Breadcrumbs::widget([
-                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-            ])
-            ?>
+
+
+
             <?= $content ?>
+            <div class="push"></div>
         </div>
-
-        <footer id="contact" class="footer--section">
+        <footer  class="footer footer--section">
             <div class="row">
                 <div class="container">
                     <div class="contact--block">
@@ -77,26 +72,29 @@ AppAsset::register($this);
                         <div class="col-lg-4">
 
                             <div class="contact--block--icon rollIn animated wow"><span><?php echo Icon::show('home', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
-                            <p>Kapellestraat 88, 8450 Bredene </p>
+                            <p>Kapellestraat 88/1, 8450 Bredene </p>
+                            <p>BTW: 0506.998.24</p>
                         </div>
                         <div class="col-lg-4">
 
                             <div class="contact--block--icon icon2 rollIn animated wow"><span><?php echo Icon::show('phone', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
-                            <p>+32 (0)59 / 11 11 11 </p> 
+                            <p>+32 (0)473 / 47 78 30 </p> 
                         </div>
                         <div class="col-lg-4">
 
                             <div class="contact--block--icon icon3 rollIn animated wow"><span><?php echo Icon::show('pencil', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
-                            <span><a href="mailto:mail@rafal.com"> mail@rafal.be</a>  </span>
+                            <span><a href="mailto:banasiak.raf@gmail.com"> banasiak.raf@gmail.com</a>  </span>
                         </div>
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="container">
-                        <div class="footer--bottom"> <span>Copyright ©  <a href="http://www.e-quality.be">e-quality</a>. </span> </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="footer--bottom"> <span>Copyright ©  <a href="http://www.e-quality.be">e-quality</a>. </span> </div>
                 </div>
+            </div>
+
         </footer>
 
 

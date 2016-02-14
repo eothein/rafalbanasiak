@@ -1,5 +1,4 @@
 <?php
-
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
@@ -12,15 +11,35 @@ $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<div class="row ">
-    <div class="col-lg-4"> 
-        <img class="img-responsive" src="http://placehold.it/400x300" alt="Renovatiewerken Rafal Banasiak"> 
+<section id="top">
+    <div class="top--inner">
+        <div class="container">
+            <div class="row">
+                <div class="flipInY wow animated">
+                    <div class="col-md-4">
+                        <img class="img-responsive img-rounded" src="images/introductie.png" alt="">
+                    </div>
+                </div>
+                <!-- /.col-md-8 -->
+                <div class="flipInX wow animated">
+                    <div class="col-md-8">
+                        <h3>Renovaties en andere werken</h3>
+                        <h2>Rafal Banasiak</h2>
+                        <p>
+                            Hebt u een project in West of Oost-Vlaanderen of Henegouwen? 
+
+                        </p>
+                        <p>Aarzel dan niet om ons te contacteren voor een vrijblijvende offerte:</p>
+                        <br>
+
+                        <h3>Rafal Banasiak</h3>
+                        <p><b>e-mail</b>: <a href="mailto: banasiak.raf@gmail.com">banasiak.raf@gmail.com</a></p>
+                        <p><b>gsm</b>: 0473 47 78 30</p>
+                        <p><b>Btw</b>: BE 0506.998.214</p>
+
+                    </div>
+                </div>
+            </div>
+
     </div>
-    <div class="col-lg-8">
-        <h2>Renovatiewerken Rafal Banasiak</h2>
-        <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat fabulas complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-            Nec et jority have suffered alteration. </p>
-        <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-            Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
-    </div>
-</div>
+</section>
