@@ -64,28 +64,26 @@ AppAsset::register($this);
             <div class="push"></div>
         </div>
         <footer  class="footer footer--section">
-            <div class="row">
+            <div class="contact--block">
                 <div class="container">
-                    <div class="contact--block">
+                    <div class="row">
                         <h2>Contacteer ons</h2>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                        <div class="col-lg-4">
-
-                            <div class="contact--block--icon rollIn animated wow"><span><?php echo Icon::show('home', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
+                            <div class="rollIn animated wow"><?php echo Icon::show('home', ['class' => 'fa-4x'], Icon::FA); ?></div>
                             <p>Kapellestraat 88/1, 8450 Bredene </p>
                             <p>BTW: 0506.998.24</p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                            <div class="contact--block--icon icon2 rollIn animated wow"><span><?php echo Icon::show('phone', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
+                            <div class="rollIn animated wow"><span><?php echo Icon::show('phone', ['class' => 'fa-4x'], Icon::FA); ?></div>
                             <p>+32 (0)473 / 47 78 30 </p> 
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                            <div class="contact--block--icon icon3 rollIn animated wow"><span><?php echo Icon::show('pencil', ['class' => 'fa-4x'], Icon::FA); ?></span></div>
+                            <div class=" rollIn animated wow"><?php echo Icon::show('pencil', ['class' => 'fa-4x'], Icon::FA); ?></div>
                             <span><a href="mailto:banasiak.raf@gmail.com"> banasiak.raf@gmail.com</a>  </span>
                         </div>
-
                     </div>
                 </div>
             </div>
